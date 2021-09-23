@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  box-sizing: border-box;
+  max-width: 1200px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color:#f9f9f9; 
+}
+
+h1{
+  font-family:'Karla', sans-serif;
+  font-size: 20px;
+  margin-bottom: 60px;
+  padding-top: 15px;
+}
+
+h2, h3{
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;  
+  font-weight: 300;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+section{
+  padding-top:25px;
+}
+
+ul{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height:22px;
+  list-style-type: none;
+}
+
+em{
+  color: #3d3d3d; /*light gray */
+  font-family: 'Karla', sans-serif;
+  font-weight: 800;
+}
+
+p{
+  color: #3d3d3d; /*light gray */
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.name{
+  display:inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  margin-left: 80px;
+  margin-top: 25px;
+  width: 200px;
+}
+
+.email{
+  color: #3d3d3d; /*light gray */
+  display: inline-block;
+  font-weight: 300;
+  left: 595px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+.phone{
+  color: #3d3d3d; /*light gray */
+  display: inline-block;
+  font-weight: 300;
+  left: 915px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+.container {
+ display: flex;
+  width: 1200px;
+}
+
+.education-skills{
+  align-conent: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 80px;
+  margin-right: 20px;
+  width: 400px;
+  padding-right: 40px;
+ 
+}
+
+.work-experience{
+  align-content: flex-end;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 100px;
+  margin-right: 50px;
+  width: 470px;
+}
+
+.job-title{
+  color:#272727; /* dark gray */
+ font-weight: 600;
+ text-transform: uppercase;
+letter-spacing: .1px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+}
+
+.skills{
+  margin-top: 5px;
+  margin-bottom:5px;
+}
